@@ -1,0 +1,51 @@
+{
+    "items": [
+        { "id": "ZU7922", "name": "ZU7922 Oak", "price": 24510 },
+        { "id": "ZU79C2", "name": "ZU79C2 Pine", "price": 24510 },
+
+        { "id": "ZU7903", "name": "Ash ZU7903", "price": 36670 },
+        { "id": "ZU79A3", "name": "Oak ZU79A3", "price": 36670 },
+
+        { "id": "ZU4618", "name": "Maple ZU4618", "price": 45500 },
+        { "id": "UU4618", "name": "Oak UU4618", "price": 45500 },
+
+        { "id": "ZU4813", "name": "Oak ZU4813", "price": 33900 },
+        { "id": "UU4813", "name": "Pine UU4813", "price": 33900 },
+
+        { "id": "ZT8300", "name": "Maple ZT8300", "price": 28730 },
+        { "id": "UT8300", "name": "Ash UT8300", "price": 28730 },
+
+        { "id": "RU7221", "name": "M Bamboo RU7221", "price": 25800 },
+        { "id": "RU7201", "name": "M Rattan RU7201", "price": 25800 },
+
+        { "id": "RU7224", "name": "S Oak RU7224", "price": 32000 },
+        { "id": "RU7204", "name": "S Maple RU7204", "price": 32000 },
+
+        { "id": "RU0226", "name": "M Pine RU0226", "price": 35100 },
+        { "id": "RU0206", "name": "M Ash RU0206", "price": 35100 },
+
+        { "id": "TT1072", "name": "Oak TT1072", "price": 19800 },
+        { "id": "TU3770", "name": "Maple TU3770", "price": 22300 },
+        { "id": "TU3771", "name": "Maple TU3771", "price": 30200 },
+
+        { "id": "QT90EF", "name": "Aluminum QT90EF", "price": 39720 },
+        { "id": "QT90", "name": "Oak QT90", "price": 40900 },
+        { "id": "QT8017", "name": "QT8017", "price": 44200 },
+
+        { "id": "CU9310", "name": "Ash CU9310", "price": 35000 },
+        { "id": "CU9300", "name": "Maple CU9300", "price": 35000 },
+
+        { "id": "CU9315", "name": "Oak CU9315", "price": 28600 },
+        { "id": "CU9305", "name": "Maple CU9305", "price": 28600 },
+
+        { "id": "CD3150", "name": "Maple CD3150", "price": 41300 },
+        { "id": "CD3100", "name": "Pine CD3100", "price": 41300 },
+
+        { "id": "CU7110", "name": "Pine CU7110", "price": 46100 },
+        { "id": "CU7100", "name": "Maple CU7100", "price": 46100 },
+
+        { "id": "DU7320", "name": "Oak DU7320", "price": 41900 },
+        { "id": "DU4320", "name": "Maple DU4320", "price": 36700 },
+        { "id": "DU7132", "name": "Pine DU7132", "price": 45000 }
+    ]
+}

@@ -1,0 +1,152 @@
+Product List
+
+Category: Chair
+
+Name: Chair 1
+Product-Code: ZU7922/ZU79C2
+Price: $24510
+Variations: Oak ZU7922 / Pine ZU79C2
+
+Name: Chair 2
+Product-Code: ZU7903/ZU79A3
+Price: $36670
+Variations: Ash ZU7903 / Oak ZU79A3
+
+Name: Chair 3
+Product-Code: ZU4618/UU4618
+Price: $45500
+Variations: Maple ZU4618 / Oak UU4618
+
+Name: Chair 4
+Product-Code: ZU4813/UU4813
+Price: $33900
+Variations: Oak ZU4813 / Pine UU4813
+
+Name: Chair 5
+Product-Code: ZT8300/UT8300
+Price: $28730
+Variations: Maple ZT8300 / Ash UT8300
+
+Category: Sofa
+
+Name: Sofa 1
+Product-Code: RU7221/RU7201
+Price: $25800
+Variations: Bamboo RU7221 / Rattan RU7201
+
+Name: Sofa 2
+Product-Code: RU7224/RU7204
+Price: $32000
+Variations: Oak RU7224 / Maple RU7204
+
+Name: Sofa 3
+Product-Code: RU0226/RU0206
+Price: $35100
+Variations: Pine RU0226 / Ash RU0206
+
+Category: Desk
+
+Name: Desk 1
+Product-Code: TT1072
+Price: $19800
+Variations: Oak TT1072
+
+Name: Desk 2
+Product-Code: TU3770
+Price: $22300
+Variations: Maple TU3770
+
+Name: Desk 3
+Product-Code: TU3771
+Price: $30200
+Variations: Maple TU3771
+
+Category: Bed
+
+Name: Bed 1
+Product-Code: QT90EF
+Price: $39720
+Variations: Aluminum QT90EF
+
+Name: Bed 2
+Product-Code: QT90
+Price: $40900
+Variations: Oak QT90
+
+Name: Bed 3
+Product-Code: QT8017
+Price: $44200
+Variations: Pine QT8017
+
+Category: Dining Table
+
+Name: Dining Table 1
+Product-Code: CU9310/CU9300
+Price: $35000
+Variations: Ash CU9310 / Maple CU9300
+
+Name: Dining Table 2
+Product-Code: CU9315/CU9305
+Price: $28600
+Variations: Oak CU9315 / Maple CU9305
+
+Name: Dining Table 3
+Product-Code: CD3150/CD3100
+Price: $41300
+Variations: Maple CD3150 / Pine CD3100
+
+Name: Dining Table 4
+Product-Code: CU7110/CU7100
+Price: $46100
+Variations: Pine CU7110 / Maple CU7100
+
+Category: Cars
+
+Name: Car 1
+Product-Code: DU7320
+Price: $41900
+Variations: Oak DU7320
+
+Name: Car 2
+Product-Code: DU4320
+Price: $36700
+Variations: Maple DU4320
+
+Name: Car 3
+Product-Code: DU7132
+Price: $45000
+Variations: Pine DU7132
+
+Delivery Fees
+
+Santa Clara Free
+Washington DC Free
+Austin Free
+Atlanta Free
+
+Vegas $2200
+New York $3500
+Miami $2250
+Nashville $1560
+Houston $3100
+
+Expedited Delivery 1-2days $1500
+
+Delivery Days
+
+Santa Clara 1day
+Washington DC 1day
+Austin 1day
+Atlanta 1day
+
+Vegas 2day
+New York 2day
+Miami 2day
+Nashville 2day
+Houston 3day
+
+Discount
+
+First Purchase 10% OFF
+Bulk Purchase 5% OFF
+Senior Citizen 10% OFF

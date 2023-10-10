@@ -1,0 +1,17 @@
+{
+    "personal-details": ["Personal Details", "個人情報"],
+    "fullname": ["Full Name", "名前"],
+    "fullname-placeholder": ["Enter Full Name", "名前を書く"],
+    "shipping-address": ["Shipping Address", "お届け先の住所"],
+    "shipping-address-placeholder": ["Enter Shipping Address", "お届け先の住所を書く"],
+    "orders": ["Orders", "注文"],
+    "status": ["Status", "スターテス"],
+    "delivery-date": ["Delivery Day", "配達日"],
+    "product-name": ["Product Name", "商品名"],
+    "quantity": ["Quantity", "量"],
+    "total-price": ["Total Price", "合計金額"],
+    "add-order": ["Add Order", "注文を追加"],
+    "order-id": ["order-id", "注文ID"],
+    "address": ["Address", "住所"],
+    "no-orders": ["No orders found", "注文が見つかりません"]
+}
