@@ -1,8 +1,6 @@
 import React from 'react'
 
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-
-import NoSsr from '@mui/base/NoSsr'
+import {createTheme, ThemeProvider} from '@mui/material/styles'
 
 import useAppStore from '../stores/appstore'
 
@@ -18,15 +16,13 @@ const lightTheme = createTheme({
     }
 })
 
-export default function CustomTheme({ children }) {
+export default function CustomTheme({children}) {
 
     const isDarkMode = useAppStore((state) => state.darkMode)
 
     return (
-        <NoSsr>
-            <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
-                { children }
-            </ThemeProvider>
-        </NoSsr>
+        <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+            {children}
+        </ThemeProvider>
     )
 }
