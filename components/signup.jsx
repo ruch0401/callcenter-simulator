@@ -3,8 +3,6 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -13,20 +11,43 @@ import {useRouter} from "next/navigation";
 import useAppStore from "../stores/appstore";
 import classes from './selectinquiry.module.css'
 
-export default function SignUp() {
+export default function SignUp(callback, deps) {
 
     const router = useRouter()
     const setUserLoginInfo = useAppStore((state) => state.setUserLoginInfo)
-    const [loading, setLoading] = React.useState(false)
+    const [openLoader, setOpenLoader] = React.useState(true)
 
-    const handleSubmit = (event) => {
+
+    const handleSubmit = async (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
-        console.log({
+        let userData = {
+            firstname: data.get('firstName'),
+            lastname: data.get('lastName'),
             email: data.get('email'),
             password: data.get('password'),
-        });
-        setUserLoginInfo("", "", data.get('userid'), data.get('password'))
+        };
+        console.log(userData);
+        setUserLoginInfo(userData.firstname, userData.lastname, userData.email, userData.password)
+
+        try {
+            setOpenLoader(true);
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(userData)
+            }
+            const response = await fetch('/signup/create-user/', requestOptions);
+            if (!response.ok) {
+                console.log('Error occurred while signup. Please refer to the browser console for more details.', response.status, response.errored)
+            }
+            router.push('/')
+        } catch (error) {
+            console.log(error)
+            setOpenLoader(false)
+        } finally {
+            setOpenLoader(false)
+        }
     };
 
     return (

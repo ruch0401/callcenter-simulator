@@ -1,7 +1,7 @@
-import Login from "../components/signin";
+import SelectInquiry from "../../components/selectinquiry";
 
 export const metadata = {
-    title: process.env.siteTitle,
+    title: `${process.env.siteTitle} - Select Inquiry`,
     description: 'A sample call center simulator',
     viewport: 'maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, width=device-width, user-scalable=0',
     icons: {
@@ -10,6 +10,8 @@ export const metadata = {
     }
 }
 
-export default function Page() {
-    return <Login />
+export default function Page(props) {
+    return (
+        <SelectInquiry {...props} />
+    )
 }

@@ -17,16 +17,37 @@ export default function SignIn() {
 
     const router = useRouter()
     const setUserLoginInfo = useAppStore((state) => state.setUserLoginInfo)
-    const [loading, setLoading] = React.useState(false)
+    const [openLoader, setOpenLoader] = React.useState(true)
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
-        setUserLoginInfo("", "", data.get('userid'), data.get('password'))
+        const userLoginFormData = new FormData(event.currentTarget);
+        let userLoginData = {
+            email: userLoginFormData.get('email'),
+            password: userLoginFormData.get('password'),
+        };
+        console.log(userLoginData);
+        setUserLoginInfo("", "", userLoginData.email, userLoginData.password)
+        try {
+            setOpenLoader(true);
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(userLoginData)
+            }
+            const response = await fetch('/signup/login-user/', requestOptions);
+            if (!response.ok) {
+                console.log('Error occurred while logging the user in. Please refer to the browser console for more details.', response.status, response.errored)
+                return;
+            }
+            router.push('/selectinquiry')
+            window.localStorage.setItem('currentuser', userLoginData.email);
+        } catch (error) {
+            console.log(error)
+            setOpenLoader(false)
+        } finally {
+            setOpenLoader(false)
+        }
     };
 
     return (
