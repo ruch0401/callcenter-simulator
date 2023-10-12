@@ -211,7 +211,7 @@ export default function VoiceCall() {
 
             } else {
 
-                router.push('/')
+                router.push('/selectinquiry')
 
             }
 
@@ -319,7 +319,7 @@ export default function VoiceCall() {
 
             const result = await response.json()
 
-            router.push('/')
+            router.push('/selectinquiry')
 
         } catch(error) {
 

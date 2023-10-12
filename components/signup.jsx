@@ -41,7 +41,7 @@ export default function SignUp(callback, deps) {
             if (!response.ok) {
                 console.log('Error occurred while signup. Please refer to the browser console for more details.', response.status, response.errored)
             }
-            router.push('/')
+            router.push('/selectinquiry')
         } catch (error) {
             console.log(error)
             setOpenLoader(false)

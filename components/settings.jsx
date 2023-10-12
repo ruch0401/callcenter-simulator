@@ -53,7 +53,7 @@ export default function Settings() {
     }
 
     const handleClose = () => {
-        router.push('/')
+        router.push('/selectinquiry')
     }
 
     return (

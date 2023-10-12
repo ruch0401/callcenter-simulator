@@ -54,7 +54,7 @@ export default function SelectMode() {
 
     const handleCancel = () => {
 
-        router.push('/')
+        router.push('/selectinquiry')
 
     }
 

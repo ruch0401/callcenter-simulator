@@ -140,7 +140,7 @@ export default function Chat() {
         
         if(messageItems.length < 2) {
             
-            router.push('/')
+            router.push('/selectinquiry')
             
             return
 
@@ -222,7 +222,7 @@ export default function Chat() {
 
             const result = await response.json()
 
-            router.push('/')
+            router.push('/selectinquiry')
 
         } catch(error) {
             console.log(error)
@@ -388,7 +388,7 @@ export default function Chat() {
 
         if(messageItems.length < 2) {
             
-            router.push('/')
+            router.push('/selectinquiry')
             
             return
 
