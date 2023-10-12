@@ -28,6 +28,7 @@ const useAppStore = create((set) => ({
   setContact: (mode) => set({ contactMode: mode }),
   setSession: (sid) => set({ sessionId: sid }),
   setApp: (inquiry, mode, sid) => set({ inquiryType: inquiry, contactMode: mode, sessionId: sid }),
+  setUserLoginInfo: (firstName, lastName, email, password) => set({ firstName: firstName, lastName: lastName, email: email, password: password }),
 }))
 
 export default useAppStore

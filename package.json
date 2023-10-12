@@ -1,7 +1,7 @@
 {
   "name": "callcenter-simulator",
   "version": "0.0.1",
-  "description": "A sample CallCenter Simulator app",
+  "description": "A sample call center simulator app",
   "scripts": {
     "dev": "next dev -p 3005",
     "build": "next build",

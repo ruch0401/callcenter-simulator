@@ -35,33 +35,21 @@ const CustomButton = (props) => {
 }
 
 export default function SelectInquiry() {
-
     useDarkMode()
-
     const router = useRouter()
-
     const setCaption = useCaption(captions)
-
     const setAppState = useAppStore((state) => state.setApp)
-
     const [loading, setLoading] = React.useState(false)
-    
+
     const handleSettingsClick = () => {
-
         setLoading(true)
-
         router.push('/admin')
-
     }
 
     const handleSelect = (mode) => (e) => {
-        
         setLoading(true)
-
         setAppState(mode, 0, '')
-
         router.push(`/contact/`)
-
     }
 
     return (
